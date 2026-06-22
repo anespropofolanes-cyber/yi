@@ -428,7 +428,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 <body>
 
 <div class="topbar">
-  <div class="brand" onclick="go('home')"><img src="assets/logo.png" alt="logo" class="brand-logo" onerror="this.style.display='none'">中醫小白的新手村 <small>跟著師父當學徒</small></div>
+  <div class="brand" onclick="go('home')"><img src="./logo.png" alt="logo" class="brand-logo" onerror="this.style.display='none'">中醫小白的新手村 <small>跟著師父當學徒</small></div>
   <div class="nav" id="nav"></div>
   <div class="xp" id="xp"></div>
   <div class="pbar" title="修行進度">
@@ -457,7 +457,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
         <div class="safety">本站為中醫入門與倪海廈課程思想之學習整理，不是診斷或處方。任何不適請就醫。</div>
       </div>
       <div class="hero-art">
-        <img src="assets/shifu-full.png" alt="師父" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="./shifu-full.png" alt="師父" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <div class="fallback" style="display:none">__SHIFU_SVG__</div>
       </div>
     </div>
@@ -465,7 +465,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 中醫概論 ============ -->
   <section id="s-gailun" class="screen">
-    <div class="scene-head" style="background-image:url('assets/scene-board.png')"><div class="cap"><div class="k">第〇章 · 進村先看地圖</div><h2>中醫概論：這是一套什麼樣的醫學</h2></div></div>
+    <div class="scene-head" style="background-image:url('./scene-board.png')"><div class="cap"><div class="k">第〇章 · 進村先看地圖</div><h2>中醫概論：這是一套什麼樣的醫學</h2></div></div>
     <div id="gailun-body"></div>
   </section>
 
@@ -475,7 +475,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
     <h2>先問你一句：你想學什麼？</h2>
     <p class="sub">沒有標準答案。選一個最像你的，師父幫你挑一條路線。</p>
     <div class="disc-intro">
-      <img src="assets/disciple-full.png" alt="學徒（你）" onerror="this.style.display='none'">
+      <img src="./disciple-full.png" alt="學徒（你）" onerror="this.style.display='none'">
       <div class="disc-say"><div class="who">學徒（你）</div><div class="txt">我也是剛進村的新手，手上這本筆記還是空的。你想從哪裡學起？選一個最像你的，我們就一起出發——師父會幫我們挑一條路線。</div></div>
     </div>
     <div id="quiz-body"></div>
@@ -483,7 +483,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 學習地圖 ============ -->
   <section id="s-map" class="screen">
-    <div class="scene-head full" style="background-image:url('assets/scene-map.png')"><div class="cap"><div class="k">學習地圖</div><h2>師父帶你，逛一遍新手村</h2></div></div>
+    <div class="scene-head full" style="background-image:url('./scene-map.png')"><div class="cap"><div class="k">學習地圖</div><h2>師父帶你，逛一遍新手村</h2></div></div>
     <p class="sub">整座村子分成許多區，一區一區解鎖。完成度會記在每張地圖卡上。點任一張卡進去。</p>
     <div class="mapgrid" id="map-grid"></div>
   </section>
@@ -519,7 +519,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 五行相生相剋 ============ -->
   <section id="s-wuxing" class="screen">
-    <div class="scene-head full wx-head" style="background-image:url('assets/scene-wuxing.png')">
+    <div class="scene-head full wx-head" style="background-image:url('./scene-wuxing.png')">
       <div class="wx-cap-top"><span class="k">第一章＋</span><span class="t">基礎理論</span></div>
       <div class="wx-cap-bot">五行相生相剋</div>
     </div>
@@ -530,7 +530,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
   <section id="s-diag" class="screen">
     <div class="kicker">第二章 · 診察四法</div>
     <h2>望 · 聞 · 問 · 切</h2>
-    <img src="assets/diag-four.png" alt="一望二聞三問四切" style="width:100%;border-radius:14px;border:1px solid var(--line);margin-bottom:12px" onerror="this.style.display='none'">
+    <img src="./diag-four.png" alt="一望二聞三問四切" style="width:100%;border-radius:14px;border:1px solid var(--line);margin-bottom:12px" onerror="this.style.display='none'">
     <div class="tabs" id="diag-tabs"></div>
     <div id="diag-body"></div>
   </section>
@@ -544,7 +544,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 脈診入門 ============ -->
   <section id="s-pulse" class="screen">
-    <div class="scene-head full" style="background-image:url('assets/scene-pulsedx.png')"><div class="cap"><div class="k">第二章 · 切診深入</div><h2>脈診入門</h2></div></div>
+    <div class="scene-head full" style="background-image:url('./scene-pulsedx.png')"><div class="cap"><div class="k">第二章 · 切診深入</div><h2>脈診入門</h2></div></div>
     <h2 style="margin-top:4px">脈診入門：先學摸『勢』</h2>
     <div id="pulse-body"></div>
   </section>
@@ -572,14 +572,14 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 藥材圖鑑 ============ -->
   <section id="s-herbs" class="screen">
-    <div class="scene-head" style="background-image:url('assets/scene-herbs.png')"><div class="cap"><div class="k">第三章 · 藥材圖鑑</div><h2>藥材小卡</h2></div></div>
+    <div class="scene-head" style="background-image:url('./scene-herbs.png')"><div class="cap"><div class="k">第三章 · 藥材圖鑑</div><h2>藥材小卡</h2></div></div>
     <p class="sub">像卡牌圖鑑一樣認藥。點右上角「＋收藏」收進筆記。紅色卡＝高風險，只能認識、不可自用。</p>
     <div class="cards" id="herb-cards"></div>
   </section>
 
   <!-- ============ 方劑圖鑑 ============ -->
   <section id="s-formula" class="screen">
-    <div class="scene-head full" style="background-image:url('assets/scene-formula.png')"><div class="cap"><div class="k">第三章 · 方劑圖鑑</div><h2>經方卡</h2></div></div>
+    <div class="scene-head full" style="background-image:url('./scene-formula.png')"><div class="cap"><div class="k">第三章 · 方劑圖鑑</div><h2>經方卡</h2></div></div>
     <p class="sub">藥材會了，看它們怎麼組成『方』。每張卡是一首經方：組成、參考用量、什麼時候用、和相似方怎麼分、禁忌、課次。紅卡＝高風險，只能認識、不可自用。</p>
     <div class="safety">「參考用量」是古方原方的大致比例（單位：克），只供認識經方配伍之用，<b>不是處方，不可自行抓藥</b>。劑量須由執業中醫師依個人體質、病情面診後決定；附子、麻黃、峻下等更不可自用。</div>
     <div class="cards" id="formula-cards"></div>
@@ -594,7 +594,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 針灸入門 ============ -->
   <section id="s-acu" class="screen">
-    <div class="scene-head full" style="background-image:url('assets/scene-acu.png')"><div class="cap"><div class="k">第三章＋ · 針灸入門</div><h2>經絡與常用穴位</h2></div></div>
+    <div class="scene-head full" style="background-image:url('./scene-acu.png')"><div class="cap"><div class="k">第三章＋ · 針灸入門</div><h2>經絡與常用穴位</h2></div></div>
     <div id="acu-body"></div>
   </section>
 
@@ -622,7 +622,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 倪師醫案（進階觀摩） ============ -->
   <section id="s-nishi" class="screen">
-    <div class="scene-head" style="background-image:url('assets/scene-night.png');background-position:center 30%"><div class="cap"><div class="k">進階觀摩 · 倪師醫案</div><h2>看倪師怎麼想</h2></div></div>
+    <div class="scene-head" style="background-image:url('./scene-night.png');background-position:center 30%"><div class="cap"><div class="k">進階觀摩 · 倪師醫案</div><h2>看倪師怎麼想</h2></div></div>
     <div id="nishi-body"></div>
   </section>
 
@@ -635,7 +635,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 日常養生 ============ -->
   <section id="s-life" class="screen">
-    <div class="scene-head full" style="background-image:url('assets/scene-yangsheng.png')"><div class="cap"><div class="k">第五章 · 日常養生</div><h2>把學到的，用回生活</h2></div></div>
+    <div class="scene-head full" style="background-image:url('./scene-yangsheng.png')"><div class="cap"><div class="k">第五章 · 日常養生</div><h2>把學到的，用回生活</h2></div></div>
     <div id="life-body"></div>
   </section>
 
@@ -648,7 +648,7 @@ canvas{max-width:100%;background:#0c2524;border-radius:10px}
 
   <!-- ============ 我的筆記 ============ -->
   <section id="s-notes" class="screen">
-    <div class="scene-head" style="background-image:url('assets/scene-notes.png');background-position:center 12%"><div class="cap"><div class="k">我的筆記</div><h2>收藏 · 錯題 · 重點</h2></div></div>
+    <div class="scene-head" style="background-image:url('./scene-notes.png');background-position:center 12%"><div class="cap"><div class="k">我的筆記</div><h2>收藏 · 錯題 · 重點</h2></div></div>
     <h3 style="margin:18px 0 2px">收藏的藥材</h3>
     <p class="sub" style="margin-top:0">在「藥材」頁點『＋收藏』，就會出現在這裡。</p>
     <div id="note-herbs"></div>
@@ -1792,7 +1792,7 @@ const SHIFU_SVG = `<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"
 document.body.innerHTML = document.body.innerHTML
   .replace(/__SHIFU_SVG__/g, SHIFU_SVG).replace(/__SHIFU_SVG_SM__/g, SHIFU_SVG);
 // 師父頭像：優先用 assets 圖檔，缺檔自動退回 SVG。teach=講解、think=思考(答錯時)
-const SHIFU_IMG = {teach:"assets/shifu-teach.png", think:"assets/shifu-think.png"};
+const SHIFU_IMG = {teach:"./shifu-teach.png", think:"./shifu-think.png"};
 function faceHTML(mood){
   const src = SHIFU_IMG[mood] || SHIFU_IMG.teach;
   return `<img src="${src}" alt="師父" style="width:100%;height:100%;object-fit:cover;object-position:top center" onerror="this.outerHTML='${SHIFU_SVG.replace(/'/g,"\\'")}'">`;
@@ -1884,7 +1884,7 @@ function renderClinic(){
   // 真圖版：clinic-hub.png 當底，疊透明可點熱區；缺圖自動退回 SVG
   document.getElementById("clinic-scene").innerHTML = `
   <div class="scene-img">
-    <img src="assets/clinic-hub.png" alt="師父的診間" onerror="renderClinicSVG()">
+    <img src="./clinic-hub.png" alt="師父的診間" onerror="renderClinicSVG()">
     <button class="zone" style="left:1.5%;top:9%;width:27%;height:64%"  onclick="go('herbs')"><span>藥櫃 · 認藥材</span></button>
     <button class="zone" style="left:41%;top:11%;width:25%;height:44%"  onclick="go('chapter1')"><span>黑板 · 學概念</span></button>
     <button class="zone" style="left:55%;top:60%;width:21%;height:21%"  onclick="goDiag('切')"><span>脈枕 · 摸脈象</span></button>
@@ -1930,7 +1930,7 @@ function renderCh1(){
    `<div class="shifu"><div class="face">${faceHTML()}</div><div class="say"><div class="who">師父</div><div class="txt">先別背名詞。把身體想成一座城市，你就懂一大半了。點點看城市的每個部分。</div></div></div>
     <div class="city">`+ CITY.map((c,i)=>`<div class="lot" onclick="cityTip(${i})"><div class="big">${c.part}</div><div class="tag">= ${c.concept}</div></div>`).join("") +`</div>
     <div id="city-tip" class="panel" style="display:none"></div>
-    <div class="stage" style="--bg:url('assets/scene-board.png')">
+    <div class="stage" style="--bg:url('./scene-board.png')">
       <div class="stage-title">小任務 · 在診間黑板前</div>
       <div class="glass"><p style="margin:0 0 8px">${CITY_TASK.q}</p><div class="choices" id="ch1-task"></div></div>
     </div>
@@ -1939,7 +1939,7 @@ function renderCh1(){
     <div class="shifu"><div class="face">${faceHTML()}</div><div class="say"><div class="who">師父</div><div class="txt">${FIVE.intro}</div></div></div>
     <div class="city" id="five-organs">`+ FIVE.organs.map((o,i)=>`<div class="lot" onclick="fiveTip(${i})"><div class="big">${o.z}</div><div class="tag">${o.x}</div></div>`).join("") +`</div>
     <div id="five-tip" class="panel" style="display:none"></div>
-    <div class="stage" style="--bg:url('assets/scene-board.png')">
+    <div class="stage" style="--bg:url('./scene-board.png')">
       <div class="stage-title">小任務 · 五行相剋</div>
       <div class="glass"><p style="margin:0 0 8px">${FIVE.task.q}</p><div class="choices" id="five-task"></div></div>
     </div>
@@ -1982,7 +1982,7 @@ function renderGailun(){
   document.getElementById("gailun-body").innerHTML =
     `<div class="shifu"><div class="face">${faceHTML()}</div><div class="say"><div class="who">師父</div><div class="txt">${g.lead}</div></div></div>`+
     g.sections.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png')"><div class="stage-title">小任務 · 抓住核心</div><div class="glass"><p style="margin:0 0 8px">${g.task.q}</p><div class="choices" id="gailun-task"></div></div></div>`+
+    `<div class="stage" style="--bg:url('./scene-board.png')"><div class="stage-title">小任務 · 抓住核心</div><div class="glass"><p style="margin:0 0 8px">${g.task.q}</p><div class="choices" id="gailun-task"></div></div></div>`+
     `<details class="concept"><summary><span class="c-title">參考文獻（${g.refs.length}）</span><span class="c-one">本章內容依據以下研究整理</span></summary><div class="c-body" style="font-size:13px">${g.refs.map(r=>`<p style="margin:0 0 6px">${r.n}. <a href="${r.u}" target="_blank" rel="noopener" style="color:var(--teal)">${r.t}</a></p>`).join("")}</div></details>`+
     `<div class="safety">本章為中醫概覽之學習整理，含現代研究的正反觀點，不構成診斷或治療建議。身體狀況請諮詢專業中醫師。</div>
      <div class="center" style="margin-top:14px"><button class="btn" onclick="go('quiz')">看完了，挑我的路線 ▸</button></div>`;
@@ -2006,8 +2006,8 @@ function renderDiag(){
     `<div class="shifu"><div class="face">${faceHTML()}</div><div class="say"><div class="who">師父 · ${diagCur}</div><div class="txt">${d.intro}</div></div></div>`+
     (d.article? d.article.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join(""):"")+
     (d.watch?`<div class="safety"><strong>分水嶺提示｜</strong>${d.watch}</div>`:"")+
-    (diagCur==="切"?`<img src="assets/scene-pulse.png" alt="師父把脈" style="width:100%;border-radius:14px;border:1px solid var(--line);margin:6px 0 12px" onerror="this.style.display='none'">`+pulseHTML():"")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png')"><div class="stage-title">小任務 · ${'望聞問切'.includes(diagCur)?diagCur+'診':diagCur}</div><div class="glass"><p style="margin:0 0 8px">${d.task.q}</p><div class="choices" id="diag-task"></div></div></div>`+
+    (diagCur==="切"?`<img src="./scene-pulse.png" alt="師父把脈" style="width:100%;border-radius:14px;border:1px solid var(--line);margin:6px 0 12px" onerror="this.style.display='none'">`+pulseHTML():"")+
+    `<div class="stage" style="--bg:url('./scene-board.png')"><div class="stage-title">小任務 · ${'望聞問切'.includes(diagCur)?diagCur+'診':diagCur}</div><div class="glass"><p style="margin:0 0 8px">${d.task.q}</p><div class="choices" id="diag-task"></div></div></div>`+
     (d.refs?`<details class="concept"><summary><span class="c-title">參考文獻（${d.refs.length}）</span><span class="c-one">本節依據以下研究整理</span></summary><div class="c-body" style="font-size:13px">${d.refs.map(r=>`<p style="margin:0 0 6px">${r.n}. <a href="${r.u}" target="_blank" rel="noopener" style="color:var(--teal)">${r.t}</a></p>`).join("")}</div></details>`:"");
   document.getElementById("diag-task").innerHTML = d.task.options.map((o,i)=>
     `<button class="choice" onclick="diagAns(${i},this)">${o.t}</button>`).join("");
@@ -2193,7 +2193,7 @@ function renderCompose(){
      <p style="font-size:14px;line-height:1.8;margin-top:12px">${COMPOSE.jczNote}</p>
      <h3 style="margin-top:24px">三、七情配伍：藥跟藥放一起</h3>`+
     COMPOSE.qiqing.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-herbs.png');margin-top:20px"><div class="stage-title">小任務 · 配伍安全</div><div class="glass"><p style="margin:0 0 8px">${COMPOSE.task.q}</p><div class="choices" id="compose-task"></div></div></div>
+    `<div class="stage" style="--bg:url('./scene-herbs.png');margin-top:20px"><div class="stage-title">小任務 · 配伍安全</div><div class="glass"><p style="margin:0 0 8px">${COMPOSE.task.q}</p><div class="choices" id="compose-task"></div></div></div>
      <p class="ev-concl" style="border:none;margin-top:16px"><b>一句話：</b>性味歸經告訴你「每味藥往哪走」，君臣佐使告訴你「它們怎麼分工」，七情告訴你「放一起會加分還是出事」。懂這三層，方就看得懂了。</p>`;
   document.getElementById("compose-task").innerHTML = COMPOSE.task.options.map((o,i)=>`<button class="choice" onclick="composeAns(${i},this)">${o.t}</button>`).join("");
   markDone("compose");
@@ -2258,7 +2258,7 @@ function renderAcu(){
      <h3 style="margin-top:26px">經絡與標準定位（進階閱讀）</h3>
      <p class="sub">想更深入的人看這段：WHO 標準、怎麼定位、以及一個誠實的事實——穴位其實是『區域』。</p>`+
     ACU_RESEARCH.sections.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png')"><div class="stage-title">小任務 · 關於穴位定位</div><div class="glass"><p style="margin:0 0 8px">${ACU_RESEARCH.task.q}</p><div class="choices" id="acu-task"></div></div></div>`+
+    `<div class="stage" style="--bg:url('./scene-board.png')"><div class="stage-title">小任務 · 關於穴位定位</div><div class="glass"><p style="margin:0 0 8px">${ACU_RESEARCH.task.q}</p><div class="choices" id="acu-task"></div></div></div>`+
     `<details class="concept"><summary><span class="c-title">參考文獻（${ACU_RESEARCH.refs.length}）</span><span class="c-one">本段依據以下研究整理</span></summary><div class="c-body" style="font-size:13px">${ACU_RESEARCH.refs.map(r=>`<p style="margin:0 0 6px">${r.n}. <a href="${r.u}" target="_blank" rel="noopener" style="color:var(--teal)">${r.t}</a></p>`).join("")}</div></details>`;
   document.getElementById("acu-cards").innerHTML = ACUPOINTS.map(p=>
     `<div class="hcard" style="border-top-color:var(--jade);min-height:180px">
@@ -2338,7 +2338,7 @@ function renderWuxing(){
      <h3 style="margin-top:26px">倪師怎麼用五行（臨床應用）</h3>
      <p class="sub">五行最有用的地方，是把『一個臟的病』放進整張生剋網裡想。</p>`+
     WUXING.apps.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png')"><div class="stage-title">小任務 · 五行關係</div><div class="glass"><p style="margin:0 0 8px">${WUXING.task.q}</p><div class="choices" id="wx-task"></div></div></div>`;
+    `<div class="stage" style="--bg:url('./scene-board.png')"><div class="stage-title">小任務 · 五行關係</div><div class="glass"><p style="margin:0 0 8px">${WUXING.task.q}</p><div class="choices" id="wx-task"></div></div></div>`;
   document.getElementById("wx-task").innerHTML = WUXING.task.options.map((o,i)=>`<button class="choice" onclick="wuxingAns(${i},this)">${o.t}</button>`).join("");
   wuxingPick("mu");
   markDone("wuxing");
@@ -2877,7 +2877,7 @@ function renderTongue(){
      <div class="safety">舌診須與望聞問切其他三診合參，單看一項不能定病。本關為認識用，不作自我診斷依據。</div>
      ${groups}
      <div class="tg-panel" id="tg-panel"></div>
-     <div class="stage" style="--bg:url('assets/scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 讀一個舌象</div><div class="glass"><p style="margin:0 0 8px">${TONGUE.task.q}</p><div class="choices" id="tg-task"></div></div></div>`;
+     <div class="stage" style="--bg:url('./scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 讀一個舌象</div><div class="glass"><p style="margin:0 0 8px">${TONGUE.task.q}</p><div class="choices" id="tg-task"></div></div></div>`;
   document.getElementById("tg-task").innerHTML = TONGUE.task.options.map((o,i)=>`<button class="choice" onclick="tgAns(${i},this)">${o.t}</button>`).join("");
   tgPick("danhong");
   markDone("tongue");
@@ -2976,11 +2976,11 @@ function renderPulse(){
      <div class="safety">脈診要靠手感與長期練習，且須四診合參。本關幫你認識脈象的『意義』，不能取代真實的指下功夫與面診。</div>
      ${groups}
      <div class="tg-panel" id="pl-panel"></div>
-     <div class="stage" style="--bg:url('assets/scene-pulse.png');margin-top:22px"><div class="stage-title">小任務 · 配一個脈</div><div class="glass"><p style="margin:0 0 8px">${PULSE.task.q}</p><div class="choices" id="pl-task"></div></div></div>
+     <div class="stage" style="--bg:url('./scene-pulse.png');margin-top:22px"><div class="stage-title">小任務 · 配一個脈</div><div class="glass"><p style="margin:0 0 8px">${PULSE.task.q}</p><div class="choices" id="pl-task"></div></div></div>
      <h3 style="margin-top:28px">脈診的現代研究（誠實版）</h3>
      <p class="sub">把脈到底準不準？現代研究怎麼說。這一段不吹捧也不抹黑，照證據講。</p>`+
     PULSE_RESEARCH.sections.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-pulse.png');margin-top:18px"><div class="stage-title">小任務 · 破除一個誤解</div><div class="glass"><p style="margin:0 0 8px">${PULSE_RESEARCH.task.q}</p><div class="choices" id="plr-task"></div></div></div>`+
+    `<div class="stage" style="--bg:url('./scene-pulse.png');margin-top:18px"><div class="stage-title">小任務 · 破除一個誤解</div><div class="glass"><p style="margin:0 0 8px">${PULSE_RESEARCH.task.q}</p><div class="choices" id="plr-task"></div></div></div>`+
     `<details class="concept"><summary><span class="c-title">參考文獻（${PULSE_RESEARCH.refs.length}）</span><span class="c-one">本段依據以下研究整理</span></summary><div class="c-body" style="font-size:13px">${PULSE_RESEARCH.refs.map(r=>`<p style="margin:0 0 6px">${r.n}. <a href="${r.u}" target="_blank" rel="noopener" style="color:var(--teal)">${r.t}</a></p>`).join("")}</div></details>`;
   document.getElementById("pl-task").innerHTML = PULSE.task.options.map((o,i)=>`<button class="choice" onclick="plAns(${i},this)">${o.t}</button>`).join("");
   document.getElementById("plr-task").innerHTML = PULSE_RESEARCH.task.options.map((o,i)=>`<button class="choice" onclick="plrAns(${i},this)">${o.t}</button>`).join("");
@@ -3146,7 +3146,7 @@ function renderYinyang(){
      <h3 style="margin-top:24px">陰陽的四大關係</h3>
      <p class="sub">陰陽不只是分類，它們之間有四種動態關係——這是中醫看『變化』的根。</p>`+
     YINYANG.rels.map(r=>`<details class="concept"><summary><span class="c-title">${r.h}</span></summary><div class="c-body">${r.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 陰陽規律</div><div class="glass"><p style="margin:0 0 8px">${YINYANG.task.q}</p><div class="choices" id="yy-task"></div></div></div>`;
+    `<div class="stage" style="--bg:url('./scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 陰陽規律</div><div class="glass"><p style="margin:0 0 8px">${YINYANG.task.q}</p><div class="choices" id="yy-task"></div></div></div>`;
   document.getElementById("yy-task").innerHTML = YINYANG.task.options.map((o,i)=>`<button class="choice" onclick="yyAns(${i},this)">${o.t}</button>`).join("");
   yyPick("yang");
   markDone("yinyang");
@@ -3204,7 +3204,7 @@ function renderQixue(){
      <h3 style="margin-top:24px">三者的關係</h3>
      <p class="sub">氣血津液從不單獨存在，它們之間這幾條關係，是理解很多病機的鑰匙。</p>`+
     QIXUE.rels.map(r=>`<details class="concept"><summary><span class="c-title">${r.h}</span></summary><div class="c-body">${r.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 氣血關係</div><div class="glass"><p style="margin:0 0 8px">${QIXUE.task.q}</p><div class="choices" id="qx-task"></div></div></div>`;
+    `<div class="stage" style="--bg:url('./scene-board.png');margin-top:22px"><div class="stage-title">小任務 · 氣血關係</div><div class="glass"><p style="margin:0 0 8px">${QIXUE.task.q}</p><div class="choices" id="qx-task"></div></div></div>`;
   document.getElementById("qx-task").innerHTML = QIXUE.task.options.map((o,i)=>`<button class="choice" onclick="qxAns(${i},this)">${o.t}</button>`).join("");
   qxPick("qi");
   markDone("qixue");
@@ -3260,7 +3260,7 @@ function runCase(id){
   const c=CASES.find(x=>x.id===id); if(!c)return;
   document.getElementById("case-body").innerHTML =
     `<button class="btn ghost" onclick="renderCases()">← 換一個病例</button>
-     <div class="stage" style="--bg:url('assets/scene-night.png')">
+     <div class="stage" style="--bg:url('./scene-night.png')">
        <div class="stage-title">診間 · ${c.title}</div>
        <div class="glass" style="font-size:16px">病人說：${c.patient}</div>
      </div>
@@ -3340,7 +3340,7 @@ function renderLife(){
   const L=LIFE;
   document.getElementById("life-body").innerHTML =
     `<div class="shifu"><div class="face">${faceHTML()}</div><div class="say"><div class="who">師父</div><div class="txt">${L.lead}</div></div></div>`+
-    `<img src="assets/scene-wellness.png" alt="養生：食療、運動、靜坐" style="width:100%;border-radius:14px;border:1px solid var(--line);margin:6px 0 4px" onerror="this.style.display='none'">`+
+    `<img src="./scene-wellness.png" alt="養生：食療、運動、靜坐" style="width:100%;border-radius:14px;border:1px solid var(--line);margin:6px 0 4px" onerror="this.style.display='none'">`+
     `<h3 style="margin-top:20px">四季養生</h3>`+
     L.seasons.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
 
@@ -3353,16 +3353,16 @@ function renderLife(){
        <div class="hcard" style="border-top-color:var(--teal)"><h3 style="font-size:16px">寒涼性</h3><p style="font-size:13px;margin:6px 0 0">${L.food.cold.join("、")}</p></div>
        <div class="hcard" style="border-top-color:var(--gold)"><h3 style="font-size:16px">平性</h3><p style="font-size:13px;margin:6px 0 0">${L.food.neutral.join("、")}</p></div>
      </div>
-     <div class="stage" style="--bg:url('assets/scene-herbs.png')"><div class="stage-title">小任務 · 寒熱搭配</div><div class="glass"><p style="margin:0 0 8px">${L.food.task.q}</p><div class="choices" id="food-task"></div></div></div>`+
+     <div class="stage" style="--bg:url('./scene-herbs.png')"><div class="stage-title">小任務 · 寒熱搭配</div><div class="glass"><p style="margin:0 0 8px">${L.food.task.q}</p><div class="choices" id="food-task"></div></div></div>`+
 
     `<h3 style="margin-top:24px">起居作息</h3>`+
     L.habit.article.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-night.png')"><div class="stage-title">小任務 · 養生習慣</div><div class="glass"><p style="margin:0 0 8px">${L.habit.task.q}</p><div class="choices" id="habit-task"></div></div></div>`+
+    `<div class="stage" style="--bg:url('./scene-night.png')"><div class="stage-title">小任務 · 養生習慣</div><div class="glass"><p style="margin:0 0 8px">${L.habit.task.q}</p><div class="choices" id="habit-task"></div></div></div>`+
 
     `<h3 style="margin-top:28px">養生的現代研究（誠實版）</h3>
      <p class="sub">太極氣功有沒有用？針灸能不能減肥？這一段照可信的權威結論講，不誇大。</p>`+
     LIFE_RESEARCH.sections.map(s=>`<details class="concept"><summary><span class="c-title">${s.h}</span></summary><div class="c-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`).join("")+
-    `<div class="stage" style="--bg:url('assets/scene-garden.png');margin-top:18px"><div class="stage-title">小任務 · 別被誇大話術騙</div><div class="glass"><p style="margin:0 0 8px">${LIFE_RESEARCH.task.q}</p><div class="choices" id="lifr-task"></div></div></div>`+
+    `<div class="stage" style="--bg:url('./scene-garden.png');margin-top:18px"><div class="stage-title">小任務 · 別被誇大話術騙</div><div class="glass"><p style="margin:0 0 8px">${LIFE_RESEARCH.task.q}</p><div class="choices" id="lifr-task"></div></div></div>`+
     `<details class="concept"><summary><span class="c-title">參考文獻（${LIFE_RESEARCH.refs.length}）</span><span class="c-one">本段依據以下研究整理</span></summary><div class="c-body" style="font-size:13px">${LIFE_RESEARCH.refs.map(r=>`<p style="margin:0 0 6px">${r.n}. <a href="${r.u}" target="_blank" rel="noopener" style="color:var(--teal)">${r.t}</a></p>`).join("")}</div></details>`+
 
     `<div class="safety">本章為養生整理，非治療建議。養生重在預防保健，不能取代醫療；體質判斷僅供方向參考，身體不適、減重或任何疾病請諮詢專業中醫師、必要時就醫。</div>`;
@@ -3400,7 +3400,7 @@ function czSubmit(){
   }
   const count={}; tags.forEach(t=>count[t]=(count[t]||0)+1);
   let top=Object.keys(count).sort((a,b)=>count[b]-count[a])[0];
-  res.innerHTML=`<div class="stage" style="--bg:url('assets/scene-board.png')"><div class="stage-title">你的體質傾向：${top}</div><div class="glass">${LIFE.constitution.results[top]}</div></div>
+  res.innerHTML=`<div class="stage" style="--bg:url('./scene-board.png')"><div class="stage-title">你的體質傾向：${top}</div><div class="glass">${LIFE.constitution.results[top]}</div></div>
     <div class="safety">這只是生活化的傾向參考，不是診斷。人常常是混合體質，實際請以專業面診為準。</div>`;
   markDone("life");
   res.scrollIntoView({behavior:"smooth",block:"center"});
